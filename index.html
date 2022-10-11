@@ -1,0 +1,184 @@
+---
+layout: default
+title: BrainsCloud | Home
+---
+
+
+
+<div class="stores">
+    <div class="stores_item">
+        <img class="stores_preview" src="assets/images/stores/prirod.png" alt="priroda">
+        <div class="stores_title">Отдыхаю на природе</div>
+        <time class="stores_date" datetime="2022-06-18 19:21">18.06.2022</time>
+    </div>
+    <div class="stores_item">
+       <img class="stores_preview" src="assets/images/stores/comp-1.png" alt="">
+       <div class="stores_title">Создаю сайт</div>
+      <time class="stores_date" datetime="2022-06-18 19:21">18.06.2022</time>
+    </div>
+    <div class="stores_item">
+        <img class="stores_preview" src="assets/images/stores/tatar 1.png" alt="">
+        <div class="stores_title">Переехал в дагестан</div>
+        <time class="stores_date" datetime="2022-06-18 19:21">18.06.2022</time>
+    </div>
+    <div class="stores_item">
+        <img class="stores_preview"  src="assets/images/stores/leto-1.png" alt="">
+        <div class="stores_title">Лето пришло</div>
+        <time class="stores_date" datetime="2022-06-18 19:21">18.06.2022</time>
+    </div>
+</div>
+
+<div class="add-post">
+    <form class="add_post_form" action="/" method="post">
+        <textarea class="add-post_text" name="post-text" placeholder="напишите что-нибудь" ></textarea>
+        <div class="add_post_form_action">   
+        <label class="add-post_file" for="add-post-file">
+            <input type="file" id="add-post-file">
+        </label>
+        <button class="add-post_send" type="submit">
+            <img src="assets/images/strela.png" alt="Отправить"></button>
+    </div> 
+    </form>
+</div>
+
+<div class="post">
+    <div class="post_contend">
+        <p class="post_text">
+            Всем привет это статья про программирование.
+            Я хочю разказать о том как я сделал этот сайт.
+            Этот сайт я сделал на HTML 5, SCSS и JS. Также 
+            я использовал gulp. А писал код в vs code.</p> 
+    </div>
+    <div class="post_footer">
+        <ul class="post_data">
+            <li class="post_date-index" >
+                <time datetime="2022-06-21 19:14" >21.06.2022</time>
+            </li>
+        </ul>
+    </div>
+</div>
+
+
+
+<article  class="post">
+    <div class="post_header">
+        <a href="#">
+        <img class="post_prewiew" src="assets/images/ckava.jpg" alt="Как я сделал этот сайт? ">
+    </a>
+    </div>
+    <div class="post_contend">
+        <h2 class="post_title">
+            <a href="#">Как я сделал этот сайт?</a>
+        </h2>
+        <p class="post_description">
+            Всем привет это статья про программирование.
+            Я хочю разказать о том как я сделал этот сайт.
+            Этот сайт я сделал на HTML 5, SCSS и JS. Также 
+            я использовал gulp. А писал код в vs code.</p> 
+    </div>
+    <div class="post_footer">
+        <ul class="post_data">
+            <li class="post_date-index" >
+                <time datetime="2022-06-21 19:14" >21.06.2022</time>
+            </li>
+            <li class="post_data-item">
+                <a href="#">создание сайтов</a>
+            </li>
+            <li class="post_read">
+                <a href="#">читать</a>
+            </li>
+        </ul>
+    </div>
+</article>
+
+
+
+
+<article  class="post">
+    <div class="post_header post_header--video">
+        <div class="embed">
+        <iframe
+         src="https://www.youtube.com/embed/p4zbV1MBJNs"
+        title="YouTube video player" frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write;
+        encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen></iframe>
+    </div>
+    </div>
+    <div class="post_contend">
+        <h2 class="post_title">
+            <a href="#">Съездили в Турцию</a>
+        </h2>
+        
+    </div>
+    <div class="post_footer">
+        <ul class="post_data">
+            <li class="post_date-index" >
+                <time datetime="2022-06-21 19:14" >21.06.2022</time>
+            </li>
+            <li class="post_data-item_video">
+                <a href="#">продвижение видео</a>
+            </li>
+            <li class="post_read">
+                <a href="#">оставит комментарий</a>
+            </li>
+        </ul>
+    </div>
+</article>
+
+
+<article  class="post">
+    <div class="post_header">
+        <a href="#">
+        <img class="post_prewiew" src="assets/images/ckava.jpg" alt="Как я сделал этот сайт? ">
+    </a>
+    </div>
+    <div class="post_contend">
+        <h2 class="post_title">
+            <a href="#">Как сделать сайт</a>
+        </h2>
+        <p class="post_text">
+            Всем привет это статья про программирование.
+            Я хочю разказать о том как я сделал этот сайт.
+            Этот сайт я сделал на HTML 5, SCSS и JS. Также 
+            я использовал gulp. А писал код в vs code.</p> 
+    </div>
+    <div class="post_footer">
+        <ul class="post_data">
+            <li class="post_date-index" >
+                <time datetime="2022-06-21 19:14" >21.06.2022</time>
+            </li>
+            <li class="post_data-item">
+                <a href="#">создание сайтов</a>
+            </li>
+            <li class="post_read">
+                <a href="http://localhost:3000/post.html">читать</a>
+            </li>
+        </ul>
+        
+    </div>
+    
+</article>
+
+
+
+<ul class="pagination">
+    <li class="pagination_item">
+        <a class="pagination_link" href="#">&lt</a>
+    </li>
+    <li class="pagination_item">
+        <a class="pagination_link" href="http://localhost:3000/one.html">1</a>
+    </li >
+    <li class="pagination_item">
+        <a class="pagination_link active " href="#">2</a>
+    </li>
+    <li class="pagination_item">
+        <a class="pagination_link" href="http://localhost:3000/post.html    ">3</a>
+    </li>
+    <li class="pagination_item">
+        <a class="pagination_link" href="#">&gt</a>
+    </li>
+</ul>
+
+
+

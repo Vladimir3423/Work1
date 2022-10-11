@@ -1,0 +1,48 @@
+.btn{
+    display: inline-block;
+    vertical-align: top;
+    font-size: 1.2rem;
+    font-weight: 500;
+    font-family: inherit;
+    line-height: 1.1rem;
+    color: #fff;
+    background: rgb(255, 0, 0);
+    padding: 1.1em 2.1em;
+    border: none;
+    margin-top: 3rem;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 3em;
+
+    &--red{
+    background-color: rgb(255, 60, 60);
+    box-shadow: 0 7px 17px -10px rgb(255, 121, 121);
+    &:hover{
+        background-color: rgb(255, 0, 0);
+        box-shadow: 0 7px 57px -10px rgb(255, 121, 121);
+
+    }
+
+    }
+
+    &--blue{
+        background-color: rgb(61, 61, 255);
+        box-shadow: 0 7px 25px -10px rgb(61, 61, 255);
+        &:hover{
+            background-color: rgb(21, 21, 242);
+        box-shadow: 0 7px 65px -10px rgb(61, 61, 255);
+            
+        }
+        }
+
+        &--rouned{
+            border-radius: 0.41rem;
+        
+        
+        }
+    
+        &--sm{
+            padding: 0.7em 1.25em;
+        }
+}
+

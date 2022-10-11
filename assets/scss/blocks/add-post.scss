@@ -1,0 +1,83 @@
+.add-post{
+    padding: 1.5rem 2rem;
+    margin-bottom: 3rem;
+    background-color: rgb(35, 35, 35);
+    box-shadow: 0 15px 25px
+     rgba($color: #000000, $alpha: .4);
+     border-radius: 5px;
+
+}
+    
+.add_post_form{
+    display: flex;
+    align-items: center ;
+}
+
+.add_post_form_action{
+    width: 20%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.add-post_text{
+        background: transparent;
+        height: 26px;
+        border: none;
+        resize: none;
+        font-family: inherit;
+        width: 80%;
+        font-size: 1.5rem;
+        color: rgb(255, 255, 255);
+        display: block;
+        &::placeholder{
+            color: rgb(255, 255, 255);
+        }
+}
+
+.add-post_file{
+    display: block;
+   width: 4rem;
+   height: 4rem;
+   
+    background: #ffffff 
+    url(../images/ftic.png) center no-repeat  ;
+    cursor: pointer;
+    border-radius: 50%;
+
+    input{
+        display: none;
+    }
+
+    &:hover{
+        background-color: rgb(255, 0, 0);
+
+    }
+
+}
+
+.add-post_send{
+    margin-left: 1.5rem;
+    display: block;
+    width: 4.4rem;
+     height: auto;
+    border-radius: 5rem;
+    cursor: pointer;
+    background-color: rgb(255, 255, 255);
+    border: none;
+    transition: background-color .2s linear;
+
+    &:hover{
+        background-color: rgb(255, 0, 0);
+
+    }
+
+}
+
+@media screen and(max-width: 1250px ) {
+  .sidebar{
+    display: none;
+  }
+}
+
+
+

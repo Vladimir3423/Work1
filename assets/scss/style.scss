@@ -1,0 +1,52 @@
+@import "vars.scss";
+@import "vendor/reset.scss";
+
+html{
+    font-size: 62.5%;
+}
+
+body {
+
+    background-color: #181818;
+    font-family: system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue","Noto Sans","Liberation Sans",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1.4rem;
+    color: $white;
+    line-height: 1.5;
+}
+
+*,
+*:before,
+*:after{
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+@import "blocks/page.scss";
+@import "blocks/header.scss";
+@import "blocks/nav.scss";
+@import "blocks/search.scss";
+@import "blocks/sidebar.scss";
+@import "blocks/main.scss";
+@import "blocks/conteiner.scss";
+@import "blocks/social.scss";
+@import "blocks/profile.scss";
+@import "blocks/btn.scss";
+@import "blocks/subnav.scss";
+@import "blocks/stores.scss";
+@import "blocks/add-post.scss";
+@import "blocks/post.scss";
+@import "blocks/embed.scss";
+@import "blocks/pagination.scss";
+@import "blocks/related.scss";
+@import "blocks/form.scss";
+@import "blocks/comments.scss";
+@import "blocks/onestyle.scss";
+
+
+

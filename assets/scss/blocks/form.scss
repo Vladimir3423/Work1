@@ -1,0 +1,51 @@
+.form_group{
+    margin-bottom: 1.5rem;
+    position: relative;
+
+}
+
+.form_control{
+    padding: .5rem 0 ;
+    display: block;
+    width: 100%;
+    border-bottom: 1px;
+    background: none;
+    border:  none;
+    border-radius: none;
+    box-shadow: none;
+
+    font-family: inherit;
+    font-size: 1.4rem;
+    color: $white;
+    &::placeholder{
+        color: rgba($white , .2);
+    }
+
+    &:focus + .form_line{
+        width: 100%;
+    }
+
+    &--textaria{
+        height: 30px;
+        resize: none;
+    }
+
+   
+}
+
+.form_line{
+    width: 0%;
+    height: 1px;
+    background-color: $white;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;   
+    transition: width .2s linear;
+      
+}
+
+
+
+
+
